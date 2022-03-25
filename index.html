@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+
+    <title>Rating Component-Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="rating">
+                <div class="star"><img src="./image/icon-star.svg" alt="star"></div>
+                <div class="heading">
+                    <p class="head">How did we do?</p>
+                    <p class="content">Please let us know we did with your support request. All feedback is appreciate to help us ipmprove our offering!</p>
+                    <div class="rating-box">
+                        <div class="rating-number">1</div>
+                        <div class="rating-number">2</div>
+                        <div class="rating-number">3</div>
+                        <div class="rating-number">4</div>
+                        <div class="rating-number selected-number">5</div>
+                    </div>
+
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="card thank-you hide">
+                <img src="./image/illustration-thank-you.svg" alt="Thank you">
+                <p class="selected">you selected 4 out of 5</p>
+                <p class="head">Thank you</p>
+                <p class="content">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripy.js"></script>
+</body>
+</html>
