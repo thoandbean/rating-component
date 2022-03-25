@@ -35,6 +35,16 @@ body {
     /* display: none; */
 }
 
+.card .rating .star {
+    background-color: #303a46;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card.thank-you {
     align-items: center;
     text-align: center;
